@@ -1,0 +1,9 @@
+# Credenciales
+config.php
+
+# Respaldos y volcados de la base
+*.sql
+!database/*.sql
+
+# Archivos subidos por usuarios
+uploads/
