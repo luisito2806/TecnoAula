@@ -1,5 +1,5 @@
 -- TecnoAula — Migración Fases 1 y 2 (login, usuarios, roles y permisos)
--- Parte del esquema actual: usuarios(id, nombre, email, password, rol, estado, creado_en) y cursos.
+-- Requiere database/00_esquema_inicial.sql (tablas usuarios y cursos). Orden completo en README.md.
 -- Ejecutar una sola vez:  mysql -u root -p TecnoAula < database/migracion_fase1_2.sql
 
 -- 1. Columnas nuevas en usuarios
